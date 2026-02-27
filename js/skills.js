@@ -7,8 +7,8 @@ const slides = [
   },
   {
     title: "02 Adobe Premiere Pro",
-    text: "Jeg havde ikke arbejdet med Premiere Pro før. Desværre var jeg syg i perioden, hvor vi arbejdede mest med programmet, men jeg har efterfølgende set videoer og kurser. Jeg har en grundlæggende forståelse for programmet, men vil stadig betegne mig selv som nybegynder, da jeg ikke har brugt det så meget i praksis endnu.",
-    stars: 2,
+    text: "Jeg havde ikke arbejdet med Premiere Pro før. Jeg har leget med det i min fritid og føler mig tryg i programmet.",
+    stars: 3,
   },
   {
     title: "03 Figma",
@@ -18,27 +18,32 @@ const slides = [
   {
     title: "04 HTML",
     text: "Jeg havde arbejdet lidt med HTML tidligere, men ikke noget jeg rigtig kunne huske. Det har måske givet en lille forforståelse, men det er først på studiet, jeg har lært det ordentligt. Jeg føler mig meget sikker i det, vi har lært indtil videre.",
-    stars: 4,
+    stars: 5,
   },
   {
     title: "05 CSS",
     text: "Jeg havde ikke arbejdet med CSS før, men føler mig i dag meget sikker i brugen af det. Jeg er tryg ved layout, farver, typografi og simple animationer og synes, det er spændende at se design blive til kode.",
-    stars: 4,
+    stars: 5,
   },
   {
     title: "06 JavaScript",
     text: "Jeg havde ingen erfaring med JavaScript før studiet. Jeg føler mig generelt sikker i det, vi har lært, men er stadig mest tryg i HTML og CSS. JavaScript er et område, jeg gerne vil blive endnu bedre til.",
-    stars: 3,
+    stars: 4,
   },
   {
     title: "07 GitHub",
-    text: "Jeg havde ikke arbejdet med GitHub før. Jeg føler mig mellemsikker og kan bruge det til versionsstyring og samarbejde, men ved også, at der er mere at lære.",
-    stars: 3,
+    text: "Jeg havde ikke arbejdet med GitHub før. Jeg føler mig sikker og kan bruge det til versionsstyring og samarbejde, men ved også, at der er mere at lære.",
+    stars: 5,
   },
   {
     title: "08 Projektstyring",
-    text: "Jeg havde ikke brugt Trello og SCRUM før studiet, men føler mig mellemsikker i brugen af det. Jeg kan bruge det til at skabe overblik, strukturere opgaver og følge processen i et projekt.",
-    stars: 3,
+    text: "Jeg havde ikke brugt Trello og SCRUM før studiet, men føler mig sikker i brugen af det. Jeg kan bruge det til at skabe overblik, strukturere opgaver og følge processen i et projekt.",
+    stars: 5,
+  },
+  {
+    title: "09 Astro",
+    text: "",
+    stars: 5,
   },
 ];
 
