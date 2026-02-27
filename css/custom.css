@@ -1,0 +1,18 @@
+:root {
+  --accent-color-rosa: #d6a1b3;
+  --bg-color-beige: #efe6dd;
+  --header-color-brown: #4e342e;
+  --burger-bg-color-creme: #f8f3ef;
+  --text-color-darkbrown: #2b1f1b;
+  --hover-color-plum: #8b3a5a;
+  --footer-bg-color: #d6a1b3;
+  --font-lalezar: "Lalezar";
+  --font-inter: "Inter";
+
+  /**stack cards**/
+
+  --cards: 6;
+  --cardHeight: fit-content;
+  --cardTopPadding: 4.5em;
+  --cardMargin: 4vw;
+}
