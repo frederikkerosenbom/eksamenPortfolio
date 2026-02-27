@@ -5,8 +5,9 @@ const firstTekst = document.querySelector(".om-mig-tekst-p1");
 const firstBoks = document.querySelector(".om-mig-tekst1");
 
 mereTekst.classList.add("hide");
-firstTekst.classList.add("uppercase");
+// firstTekst.classList.add("uppercase");
 firstBoks.classList.add("textplaceCenter");
+firstBoks.classList.add("placeselfcenter");
 
 /* LÆS MERE */
 mereLink.addEventListener("click", (e) => {
@@ -14,8 +15,9 @@ mereLink.addEventListener("click", (e) => {
   e.preventDefault(); // stopper hop på siden
   mereTekst.classList.remove("hide");
   mereLink.classList.add("hide"); // skjul "læs mere"
-  firstTekst.classList.remove("uppercase");
+  // firstTekst.classList.remove("uppercase");
   firstBoks.classList.remove("textplaceCenter");
+  firstBoks.classList.remove("placeselfcenter");
   firstBoks.classList.add("textplaceStart");
 });
 
@@ -24,8 +26,9 @@ mindreLink.addEventListener("click", (e) => {
   e.preventDefault();
   mereTekst.classList.add("hide");
   mereLink.classList.remove("hide"); // vis "læs mere" igen
-  firstTekst.classList.add("uppercase");
+  // firstTekst.classList.add("uppercase");
 
   firstBoks.classList.remove("textplaceStart");
+  firstBoks.classList.add("placeselfcenter");
   firstBoks.classList.add("textplaceCenter");
 });
